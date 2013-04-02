@@ -23,4 +23,4 @@ requires:
 resources:
   bugtracker: https://github.com/petrkle/postfix-mailgroups-expand/issues
   repository: git://github.com/petrkle/postfix-mailgroups-expand.git
-version: 1.130920
+version: 1.130921

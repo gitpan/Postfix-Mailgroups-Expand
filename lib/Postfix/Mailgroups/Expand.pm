@@ -1,6 +1,6 @@
 package Postfix::Mailgroups::Expand;
 {
-  $Postfix::Mailgroups::Expand::VERSION = '1.130920';
+  $Postfix::Mailgroups::Expand::VERSION = '1.130921';
 }
 # ABSTRACT: Expand postfix mailgroups.
 
@@ -98,7 +98,7 @@ Postfix::Mailgroups::Expand - Expand postfix mailgroups.
 
 =head1 VERSION
 
-version 1.130920
+version 1.130921
 
 =head1 SYNOPSIS
 
