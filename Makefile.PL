@@ -23,12 +23,13 @@ my %WriteMakefileArgs = (
     "Carp" => 0,
     "Exporter" => 0,
     "File::Slurp" => 0,
+    "List::MoreUtils" => 0,
     "strict" => 0,
     "vars" => 0,
     "warnings" => 0
   },
   "TEST_REQUIRES" => {},
-  "VERSION" => "1.130921",
+  "VERSION" => "1.130923",
   "test" => {
     "TESTS" => "t/*.t"
   }

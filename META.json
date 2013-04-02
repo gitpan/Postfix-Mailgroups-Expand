@@ -30,6 +30,7 @@
             "Carp" : "0",
             "Exporter" : "0",
             "File::Slurp" : "0",
+            "List::MoreUtils" : "0",
             "perl" : "5.006",
             "strict" : "0",
             "vars" : "0",
@@ -48,6 +49,6 @@
          "web" : "https://github.com/petrkle/postfix-mailgroups-expand"
       }
    },
-   "version" : "1.130921"
+   "version" : "1.130923"
 }
 

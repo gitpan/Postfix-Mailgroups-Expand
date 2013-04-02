@@ -1,6 +1,6 @@
 package Postfix::Mailgroups::Expand;
 {
-  $Postfix::Mailgroups::Expand::VERSION = '1.130921';
+  $Postfix::Mailgroups::Expand::VERSION = '1.130923';
 }
 # ABSTRACT: Expand postfix mailgroups.
 
@@ -9,6 +9,7 @@ use strict;
 use warnings;
 
 use File::Slurp;
+use List::MoreUtils qw(uniq);
 use Carp;
 
 use vars qw($VERSION @ISA @EXPORT @EXPORT_OK);
@@ -85,7 +86,7 @@ sub _get_addresses{
 			push(@navrat,$adr);
 		}
 	}
-	return @navrat;
+	return sort uniq(@navrat);
 }
 
 1;
@@ -98,7 +99,7 @@ Postfix::Mailgroups::Expand - Expand postfix mailgroups.
 
 =head1 VERSION
 
-version 1.130921
+version 1.130923
 
 =head1 SYNOPSIS
 
