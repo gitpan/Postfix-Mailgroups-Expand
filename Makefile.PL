@@ -20,6 +20,7 @@ my %WriteMakefileArgs = (
   "LICENSE" => "perl",
   "NAME" => "Postfix::Mailgroups::Expand",
   "PREREQ_PM" => {
+    "AutoLoader" => 0,
     "Carp" => 0,
     "Exporter" => 0,
     "File::Slurp" => 0,
@@ -29,7 +30,7 @@ my %WriteMakefileArgs = (
     "warnings" => 0
   },
   "TEST_REQUIRES" => {},
-  "VERSION" => "1.130923",
+  "VERSION" => "1.131020",
   "test" => {
     "TESTS" => "t/*.t"
   }
